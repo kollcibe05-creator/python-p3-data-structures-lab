@@ -63,8 +63,8 @@ def print_spiciest_foods(spicy_foods):
             times = spicy_food["heat_level"]
             emoji = "🌶"
             emoji_output =  emoji * times  
-            to_print = f"{spicy_food["name"]} ({spicy_food["cuisine"]}) | Heat Level: {emoji_output}"            #uncomment
-            print(to_print)                                                                                      #uncomment         
+            to_print = f"{spicy_food["name"]} ({spicy_food["cuisine"]}) | Heat Level: {emoji_output}"            #uncomment   ~ done 
+            print(to_print)                                                                                      #uncomment   ~ done       
     pass
 
 def get_average_heat_level(spicy_foods):
